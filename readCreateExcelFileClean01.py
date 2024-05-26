@@ -13,7 +13,6 @@ activeWorkSheet = wb.active
 column_a_data = []
 
 # Iterate through each row in column A and append the value to the list
-# from ChatGpt
 for row in activeWorkSheet['A2:A100']:
     for cell in row:
         if cell.value is not None:
